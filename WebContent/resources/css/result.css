@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+	direction: rtl;
+}
+body{
+
+background: #fafafa;
+	 
+	  //  background: -moz-linear-gradient(-45deg, #45484d 0%, #000000 100%);	
+}
+
+.background{
+	padding-top: 40px;
+	background-color:#4B4A5A
+;
+}
+.header .logo img:first-child{
+	width: 100px;
+	height: 70px;
+}
+.header input {
+	width:400px;
+	height: 35px;
+	padding: 15px;
+	line-height: 15px;
+}
+.header .logo img:last-child{
+	position: relative;
+	left: 35px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	line-height: 15px;
+}
+.docs .container .info{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.DOCS {
+	float: right;
+	position: sticky;
+	width: 700px;
+padding-top: 20px;
+
+
+}
+.docs .container .DOC{
+padding: 10px;
+}
+.hr{height: 1px; background-color: #f00}
+.hh{
+	float: left;
+}

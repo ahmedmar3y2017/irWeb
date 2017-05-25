@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	
+background: #fff;
+	 
+	  //  background: -moz-linear-gradient(-45deg, #45484d 0%, #000000 100%);	
+}
+
+.all {
+
+	padding-top: 110px;
+	text-align: center;
+}
+.logo{
+	
+margin-bottom: -20px;
+
+}
+.logo img{
+	width:250px;
+	height: 250px;
+}
+.logo span{
+	color:#f233d3;
+	position: relative;
+	top: 60px;
+	left: -50px;
+}
+
+.main{
+	margin-top: -20px;
+	position: relative;
+}
+
+.prefence img{
+	width: 25px;
+}
+input {
+	width:560px;
+	height: 45px;
+	padding: 15px;
+	line-height: 15px;
+
+
+}
+input:focus ,input:hover {
+  -moz-box-shadow:    2px 1px 4px 4px #ccc;
+  -webkit-box-shadow: 2px 2px 4px 4px #ccc;
+  box-shadow:         2px 2px 4px 4px #ccc;
+  border-style: none;
+  outline: none;
+}
+.forma{
+	margin-top: 15px;
+}
+ .btn button{
+	height: 36px;
+	line-height: 27px;
+	width: 100px;
+	 background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+.btn button:hover {
+ border: 2px solid #999;
+}
+.Copyright {
+	color:#ea4335;
+	text-align: center;
+	margin-top: 150px; 
+}
